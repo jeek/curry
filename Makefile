@@ -3,7 +3,6 @@ BINUTILS=2.28
 DESTDIR=$(shell pwd)/target
 
 clean:
-	echo ${DESTDIR}
 	rm -rf *~ binutils* *.tar.gz target
 
 # binutils
