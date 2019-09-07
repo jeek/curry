@@ -122,7 +122,7 @@ gcc/build/Makefile:	gcc/build gcc/mpfr gcc/gmp gcc/mpc gcc/mpfr target/tools/bin
 # linux
 
 linux.tar.xz:
-	wget -c https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL}.tar.xz
+	wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${KERNEL}.tar.xz
 	ln -f -s linux-${KERNEL}.tar.xz linux.tar.xz
 
 linux:	linux.tar.xz
